@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+
+.fundo {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: relative;
+}
+
+main img {
+  width: 30rem;
+}
+
+.wrapper {
+  width: 100rem;
+  display: grid;
+  position: absolute;
+  top: 30rem;
+  left: 30rem;
+  grid-template-areas: 
+  "A B C D";
+  gap: 3rem;
+}
+
+.wrapper div:nth-child(1) {
+  grid-area: A;
+}
+
+.wrapper div:nth-child(2) {
+  grid-area: B;
+}
+
+.wrapper div:nth-child(3) {
+  grid-area: C;
+}
+
+.wrapper div:nth-child(3) {
+  grid-area: D;
+}
+
+.buraco1 {
+  position: relative;
+}
+
+.buraco1 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.part2, .part3, .part4, .part5, .part6 {
+  opacity: 0;
+}
+
+.buraco1 .part2 {
+  animation: toupeira-part 1000ms backwards;
+  
+}
+
+.buraco1 .part3 {
+  animation: toupeira-part 1000ms backwards;
+  
+}
+
+.buraco1 .part4 {
+  animation: toupeira-part 1000ms backwards;
+  
+}
+
+.buraco1 .part5 {
+  animation: toupeira-part 1000ms backwards;
+  animation-delay: 700ms;
+}
+
+.buraco1 .part6 {
+  animation: toupeira-part 1000ms backwards;
+  animation-delay: 1300ms;
+}
+
+@keyframes toupeira-part{
+  100% {
+    opacity: 1;
+  }
+}
+
+.buraco7 {
+  position: relative;
+}
+
+.buraco7 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.buraco7 .part2 {
+  animation: toupeira-part 1000ms backwards;
+  animation-delay: 3000ms;
+}
+
+.buraco7 .part3 {
+  animation: toupeira-part 1000ms backwards;
+  animation-delay: 3000ms;
+}
+
+.buraco7 .part4 {
+  animation: toupeira-part 1000ms backwards;
+  animation-delay: 3000ms;
+}
+
+.buraco7 .part5 {
+  animation: toupeira-part 1000ms backwards;
+  animation-delay: 3700ms;
+}
+
+.buraco7 .part6 {
+  animation: toupeira-part 1000ms backwards;
+  animation-delay: 4300ms;
+}
+
+.buraco10 {
+  position: relative;
+}
+
+.buraco10 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.buraco10 .part2 {
+  animation: toupeira-part 1000ms backwards;
+  animation-delay: 6000ms;
+}
+
+.buraco10 .part3 {
+  animation: toupeira-part 1000ms backwards;
+  animation-delay: 6000ms;
+}
+
+.buraco10 .part4 {
+  animation: toupeira-part 1000ms backwards;
+  animation-delay: 6000ms;
+}
+
+.buraco10 .part5 {
+  animation: toupeira-part 1000ms backwards;
+  animation-delay: 6700ms;
+}
+
+.buraco10 .part6 {
+  animation: toupeira-part 1000ms backwards;
+  animation-delay: 7300ms;
+}
